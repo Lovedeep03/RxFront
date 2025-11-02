@@ -30,7 +30,7 @@ const PrescriptionUpload = () => {
     setErrorMessage('');
 
     try {
-      const res = await axios.post('http://localhost:5000/api/process-prescription', formData, {
+      const res = await axios.post('https://rxback.onrender.com/api/process-prescription', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
