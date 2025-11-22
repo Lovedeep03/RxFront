@@ -255,7 +255,7 @@ const PrescriptionUpload = () => {
               mb: 2
             }}
           >
-            ⚕ RxVision
+            ⚕ RxBill
           </Typography>
           <Typography variant="h6" color="text.secondary" sx={{ mb: 3 }}>
             Upload your prescription image for analysis
