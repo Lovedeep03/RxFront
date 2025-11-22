@@ -465,7 +465,7 @@ const InvoiceGenerator = ({ prescriptionData }) => {
     <Box sx={{ p: 3 }}>
       <Paper sx={{ p: 3, mb: 3 }}>
         <Typography variant="h4" gutterBottom align="center">
-          Medico Pharma Invoice Generator
+          RxVision Invoice Generator
         </Typography>
         
         <Grid container spacing={3}>
@@ -564,7 +564,7 @@ const InvoiceGenerator = ({ prescriptionData }) => {
            <Box sx={{ display: 'flex', justifyContent: 'space-between', mb: 2 }}>
              <Box sx={{ flex: 1 }}>
                <Typography variant="h4" color="primary" gutterBottom sx={{ fontWeight: 'bold', textAlign: 'left', mb: 1 }}>
-                 MEDICO PHARMA
+                 RxVision PHARMA
                </Typography>
                <Typography variant="body2" sx={{ mb: 0.25 }}>Invoice #: {invoiceData.invoiceNumber}</Typography>
                <Typography variant="body2" sx={{ mb: 0.25 }}>Date: {invoiceData.date}</Typography>
